@@ -1,0 +1,2713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.PropertiesUtils: 读取配置文件：local.properties</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.PropertiesUtils: 读取配置文件参数：url  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.PropertiesUtils: 读取配置文件参数：chromeDriverPath  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.PropertiesUtils: 读取配置文件参数：fireFoxDriverPath  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.PropertiesUtils: 读取配置文件参数：ieDriverPath  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.PropertiesUtils: 读取配置文件参数：shotPath  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.PropertiesUtils: 读取配置文件参数：maxTryCount  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.PropertiesUtils: 读取配置文件参数：defaultCount  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: Test Start</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 杀死chrome浏览器成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 创建chrome浏览器成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: starting testcase</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/LoginPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 打开网址：http://192.168.0.124/zentao</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：用户名输入框  输入：admin 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：密码输入框  输入：123456 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：登录按钮 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceIndexPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：我的地盘-我的待办 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：待办-新增按钮 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/AddTodoPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：类型下拉框  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：优先级下拉框  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：名称输入框  输入： 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：保存按钮 提交 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.AssertUtils: 测试通过！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: Test Success</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 杀死chrome浏览器成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 创建chrome浏览器成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: starting testcase</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/LoginPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 打开网址：http://192.168.0.124/zentao</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：用户名输入框  输入：admin 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：密码输入框  输入：123456 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：登录按钮 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceIndexPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：我的地盘-我的待办 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：待办-新增按钮 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/AddTodoPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：类型下拉框  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：优先级下拉框  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：名称输入框  输入：2017-03-27TODO0 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：保存按钮 提交 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.AssertUtils: 测试通过！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: Test Success</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 杀死chrome浏览器成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 创建chrome浏览器成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: starting testcase</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/LoginPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 打开网址：http://192.168.0.124/zentao</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：用户名输入框  输入：admin 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：密码输入框  输入：123456 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：登录按钮 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceIndexPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：我的地盘-我的待办 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：待办-批量添加按钮 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/BatchAddTodoPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框0  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框1  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框2  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框3  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框4  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框5  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框6  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框7  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框0  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框1  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框2  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框3  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框4  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框5  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框6  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框7  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉0 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉1 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉2 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉3 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉4 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉5 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉6 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉7 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述0  输入：批量添加bug类型的待办-0 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述1  输入：批量添加bug类型的待办-1 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述2  输入：批量添加bug类型的待办-2 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述3  输入：批量添加bug类型的待办-3 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述4  输入：批量添加bug类型的待办-4 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述5  输入：批量添加bug类型的待办-5 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述6  输入：批量添加bug类型的待办-6 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述7  输入：批量添加bug类型的待办-7 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-保存按钮 提交 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.AssertUtils: 测试通过！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: Test Success</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 杀死chrome浏览器成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 创建chrome浏览器成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: starting testcase</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/LoginPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 打开网址：http://192.168.0.124/zentao</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：用户名输入框  输入：admin 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：密码输入框  输入：123456 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：登录按钮 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceIndexPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：我的地盘-我的待办 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：待办-批量添加按钮 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/BatchAddTodoPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框0  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框1  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框2  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框3  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框4  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框5  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框6  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框7  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框0  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框1  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框2  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框3  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框4  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框5  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框6  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框7  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉0 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉1 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉2 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉3 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉4 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉5 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉6 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉7 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述0  输入：批量添加bug类型的待办-0 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述1  输入：批量添加bug类型的待办-1 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述2  输入：批量添加bug类型的待办-2 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述3  输入：批量添加bug类型的待办-3 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述4  输入：批量添加bug类型的待办-4 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述5  输入：批量添加bug类型的待办-5 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述6  输入：批量添加bug类型的待办-6 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述7  输入：批量添加bug类型的待办-7 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-保存按钮 提交 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.AssertUtils: 测试通过！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: Test Success</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 杀死chrome浏览器成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 创建chrome浏览器成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: starting testcase</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/LoginPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 打开网址：http://192.168.0.124/zentao</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：用户名输入框  输入：admin 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：密码输入框  输入：123456 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：登录按钮 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceIndexPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：我的地盘-我的待办 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：待办-批量添加按钮 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/BatchAddTodoPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框0  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框1  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框2  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框3  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框4  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框5  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框6  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框7  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框0  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框1  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框2  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框3  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框4  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框5  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框6  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框7  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉0 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉1 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉2 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉3 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉4 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉5 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉6 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉7 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述0  输入：批量添加bug类型的待办-0 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述1  输入：批量添加bug类型的待办-1 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述2  输入：批量添加bug类型的待办-2 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述3  输入：批量添加bug类型的待办-3 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述4  输入：批量添加bug类型的待办-4 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述5  输入：批量添加bug类型的待办-5 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述6  输入：批量添加bug类型的待办-6 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述7  输入：批量添加bug类型的待办-7 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-保存按钮 提交 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.AssertUtils: 测试通过！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: Test Success</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 杀死chrome浏览器成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 创建chrome浏览器成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: starting testcase</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/LoginPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 打开网址：http://192.168.0.124/zentao</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：用户名输入框  输入：admin 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：密码输入框  输入：123456 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：登录按钮 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceIndexPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：我的地盘-我的待办 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：待办-批量添加按钮 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/BatchAddTodoPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框0  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框1  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框2  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框3  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框4  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框5  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框6  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框7  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框0  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框1  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框2  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框3  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框4  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框5  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框6  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框7  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框0  输入：批量添加代办1-0 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框1  输入：批量添加代办1-1 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框2  输入：批量添加代办1-2 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框3  输入：批量添加代办1-3 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框4  输入：批量添加代办1-4 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框5  输入：批量添加代办1-5 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框6  输入：批量添加代办1-6 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框7  输入：批量添加代办1-7 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述0  输入：完成批量添加代办3-0 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述1  输入：完成批量添加代办3-1 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述2  输入：完成批量添加代办3-2 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述3  输入：完成批量添加代办3-3 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述4  输入：完成批量添加代办3-4 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述5  输入：完成批量添加代办3-5 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述6  输入：完成批量添加代办3-6 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述7  输入：完成批量添加代办3-7 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-保存按钮 提交 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.AssertUtils: 测试通过！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: Test Success</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 杀死chrome浏览器成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 创建chrome浏览器成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: starting testcase</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/LoginPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 打开网址：http://192.168.0.124/zentao</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：用户名输入框  输入：admin 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：密码输入框  输入：123456 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：登录按钮 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceIndexPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：我的地盘-我的待办 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：待办-批量添加按钮 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/BatchAddTodoPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框0  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框1  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框2  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框3  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框4  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框5  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框6  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框7  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框0  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框1  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框2  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框3  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框4  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框5  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框6  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框7  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框0  输入：批量添加代办2-0 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框1  输入：批量添加代办2-1 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框2  输入：批量添加代办2-2 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框3  输入：批量添加代办2-3 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框4  输入：批量添加代办2-4 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框5  输入：批量添加代办2-5 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框6  输入：批量添加代办2-6 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框7  输入：批量添加代办2-7 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述0  输入：完成批量添加代办3-0 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述1  输入：完成批量添加代办3-1 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述2  输入：完成批量添加代办3-2 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述3  输入：完成批量添加代办3-3 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述4  输入：完成批量添加代办3-4 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述5  输入：完成批量添加代办3-5 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述6  输入：完成批量添加代办3-6 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述7  输入：完成批量添加代办3-7 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-保存按钮 提交 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.AssertUtils: 测试通过！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: Test Success</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 杀死chrome浏览器成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 创建chrome浏览器成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: starting testcase</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/LoginPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 打开网址：http://192.168.0.124/zentao</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：用户名输入框  输入：admin 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：密码输入框  输入：123456 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：登录按钮 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceIndexPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：我的地盘-我的待办 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：待办-批量添加按钮 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/BatchAddTodoPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框0  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框1  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框2  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框3  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框4  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框5  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框6  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框7  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框0  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框1  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框2  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框3  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框4  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框5  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框6  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框7  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框0  输入：批量添加代办3-0 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框1  输入：批量添加代办3-1 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框2  输入：批量添加代办3-2 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框3  输入：批量添加代办3-3 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框4  输入：批量添加代办3-4 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框5  输入：批量添加代办3-5 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框6  输入：批量添加代办3-6 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框7  输入：批量添加代办3-7 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述0  输入：完成批量添加代办3-0 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述1  输入：完成批量添加代办3-1 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述2  输入：完成批量添加代办3-2 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述3  输入：完成批量添加代办3-3 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述4  输入：完成批量添加代办3-4 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述5  输入：完成批量添加代办3-5 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述6  输入：完成批量添加代办3-6 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述7  输入：完成批量添加代办3-7 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-保存按钮 提交 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.AssertUtils: 测试通过！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: Test Success</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 杀死chrome浏览器成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 创建chrome浏览器成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: starting testcase</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/LoginPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 打开网址：http://192.168.0.124/zentao</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：用户名输入框  输入：admin 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：密码输入框  输入：123456 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：登录按钮 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceIndexPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：我的地盘-我的待办 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：待办-批量添加按钮 点击 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/BatchAddTodoPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框0  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框1  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框2  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框3  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框4  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框5  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框6  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框7  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框0  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框1  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框2  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框3  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框4  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框5  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框6  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框7  select  成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框0  输入：批量添加代办4-0 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框1  输入：批量添加代办4-1 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框2  输入：批量添加代办4-2 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框3  输入：批量添加代办4-3 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框4  输入：批量添加代办4-4 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框5  输入：批量添加代办4-5 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框6  输入：批量添加代办4-6 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框7  输入：批量添加代办4-7 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述0  输入：完成批量添加代办3-0 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述1  输入：完成批量添加代办3-1 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述2  输入：完成批量添加代办3-2 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述3  输入：完成批量添加代办3-3 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述4  输入：完成批量添加代办3-4 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述5  输入：完成批量添加代办3-5 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述6  输入：完成批量添加代办3-6 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述7  输入：完成批量添加代办3-7 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-保存按钮 提交 成功</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.AssertUtils: 测试通过！</font></span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: Test Success</font></span><br />]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="168183" started-at="2017-03-27T04:36:42Z" finished-at="2017-03-27T04:39:30Z">
+    <groups>
+    </groups>
+    <test name="TestLogin" duration-ms="168183" started-at="2017-03-27T04:36:42Z" finished-at="2017-03-27T04:39:30Z">
+      <class name="com.jay.testcases.TestAddTodo">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jay.testcases.TestAddTodo@419c5f1a]" name="setup" is-config="true" duration-ms="1735" started-at="2017-03-27T12:36:42Z" finished-at="2017-03-27T12:36:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 杀死chrome浏览器成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 创建chrome浏览器成功</font></span><br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addTodoNameNull()[pri:0, instance:com.jay.testcases.TestAddTodo@419c5f1a]" name="addTodoNameNull" duration-ms="10013" started-at="2017-03-27T12:36:43Z" finished-at="2017-03-27T12:36:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/LoginPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 打开网址：http://192.168.0.124/zentao</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：用户名输入框  输入：admin 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：密码输入框  输入：123456 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：登录按钮 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceIndexPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：我的地盘-我的待办 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：待办-新增按钮 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/AddTodoPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：类型下拉框  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：优先级下拉框  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：名称输入框  输入： 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：保存按钮 提交 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.AssertUtils: 测试通过！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: Test Success</font></span><br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addTodoNameNull -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.jay.testcases.TestAddTodo@419c5f1a]" name="close" is-config="true" duration-ms="3346" started-at="2017-03-27T12:36:53Z" finished-at="2017-03-27T12:36:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jay.testcases.TestAddTodo@419c5f1a]" name="setup" is-config="true" duration-ms="1084" started-at="2017-03-27T12:36:57Z" finished-at="2017-03-27T12:36:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 杀死chrome浏览器成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 创建chrome浏览器成功</font></span><br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addTodoSuccess()[pri:0, instance:com.jay.testcases.TestAddTodo@419c5f1a]" name="addTodoSuccess" duration-ms="7235" started-at="2017-03-27T12:36:58Z" finished-at="2017-03-27T12:37:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/LoginPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 打开网址：http://192.168.0.124/zentao</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：用户名输入框  输入：admin 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：密码输入框  输入：123456 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：登录按钮 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceIndexPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：我的地盘-我的待办 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：待办-新增按钮 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/AddTodoPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：类型下拉框  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：优先级下拉框  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：名称输入框  输入：2017-03-27TODO0 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：保存按钮 提交 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.AssertUtils: 测试通过！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: Test Success</font></span><br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addTodoSuccess -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.jay.testcases.TestAddTodo@419c5f1a]" name="close" is-config="true" duration-ms="3065" started-at="2017-03-27T12:37:05Z" finished-at="2017-03-27T12:37:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jay.testcases.TestAddTodo@419c5f1a]" name="setup" is-config="true" duration-ms="1279" started-at="2017-03-27T12:37:08Z" finished-at="2017-03-27T12:37:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 杀死chrome浏览器成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 创建chrome浏览器成功</font></span><br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="batchAddTodoSuccessB1()[pri:0, instance:com.jay.testcases.TestAddTodo@419c5f1a]" name="batchAddTodoSuccessB1" duration-ms="16335" started-at="2017-03-27T12:37:10Z" finished-at="2017-03-27T12:37:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/LoginPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 打开网址：http://192.168.0.124/zentao</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：用户名输入框  输入：admin 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：密码输入框  输入：123456 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：登录按钮 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceIndexPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：我的地盘-我的待办 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：待办-批量添加按钮 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/BatchAddTodoPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框0  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框1  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框2  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框3  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框4  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框5  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框6  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框7  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框0  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框1  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框2  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框3  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框4  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框5  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框6  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框7  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉0 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉1 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉2 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉3 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉4 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉5 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉6 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉7 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述0  输入：批量添加bug类型的待办-0 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述1  输入：批量添加bug类型的待办-1 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述2  输入：批量添加bug类型的待办-2 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述3  输入：批量添加bug类型的待办-3 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述4  输入：批量添加bug类型的待办-4 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述5  输入：批量添加bug类型的待办-5 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述6  输入：批量添加bug类型的待办-6 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述7  输入：批量添加bug类型的待办-7 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-保存按钮 提交 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.AssertUtils: 测试通过！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: Test Success</font></span><br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- batchAddTodoSuccessB1 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.jay.testcases.TestAddTodo@419c5f1a]" name="close" is-config="true" duration-ms="2172" started-at="2017-03-27T12:37:26Z" finished-at="2017-03-27T12:37:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jay.testcases.TestAddTodo@419c5f1a]" name="setup" is-config="true" duration-ms="1283" started-at="2017-03-27T12:37:28Z" finished-at="2017-03-27T12:37:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 杀死chrome浏览器成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 创建chrome浏览器成功</font></span><br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="batchAddTodoSuccessB2()[pri:0, instance:com.jay.testcases.TestAddTodo@419c5f1a]" name="batchAddTodoSuccessB2" duration-ms="16689" started-at="2017-03-27T12:37:29Z" finished-at="2017-03-27T12:37:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/LoginPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 打开网址：http://192.168.0.124/zentao</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：用户名输入框  输入：admin 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：密码输入框  输入：123456 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：登录按钮 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceIndexPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：我的地盘-我的待办 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：待办-批量添加按钮 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/BatchAddTodoPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框0  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框1  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框2  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框3  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框4  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框5  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框6  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框7  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框0  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框1  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框2  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框3  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框4  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框5  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框6  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框7  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉0 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉1 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉2 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉3 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉4 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉5 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉6 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉7 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述0  输入：批量添加bug类型的待办-0 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述1  输入：批量添加bug类型的待办-1 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述2  输入：批量添加bug类型的待办-2 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述3  输入：批量添加bug类型的待办-3 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述4  输入：批量添加bug类型的待办-4 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述5  输入：批量添加bug类型的待办-5 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述6  输入：批量添加bug类型的待办-6 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述7  输入：批量添加bug类型的待办-7 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-保存按钮 提交 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.AssertUtils: 测试通过！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: Test Success</font></span><br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- batchAddTodoSuccessB2 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.jay.testcases.TestAddTodo@419c5f1a]" name="close" is-config="true" duration-ms="3364" started-at="2017-03-27T12:37:46Z" finished-at="2017-03-27T12:37:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jay.testcases.TestAddTodo@419c5f1a]" name="setup" is-config="true" duration-ms="1106" started-at="2017-03-27T12:37:49Z" finished-at="2017-03-27T12:37:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 杀死chrome浏览器成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 创建chrome浏览器成功</font></span><br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="batchAddTodoSuccessB3()[pri:0, instance:com.jay.testcases.TestAddTodo@419c5f1a]" name="batchAddTodoSuccessB3" duration-ms="16433" started-at="2017-03-27T12:37:50Z" finished-at="2017-03-27T12:38:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/LoginPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 打开网址：http://192.168.0.124/zentao</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：用户名输入框  输入：admin 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：密码输入框  输入：123456 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：登录按钮 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceIndexPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：我的地盘-我的待办 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：待办-批量添加按钮 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/BatchAddTodoPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框0  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框1  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框2  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框3  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框4  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框5  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框6  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框7  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框0  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框1  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框2  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框3  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框4  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框5  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框6  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框7  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉0 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉1 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉2 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉3 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉4 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉5 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉6 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉7 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述0  输入：批量添加bug类型的待办-0 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述1  输入：批量添加bug类型的待办-1 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述2  输入：批量添加bug类型的待办-2 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述3  输入：批量添加bug类型的待办-3 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述4  输入：批量添加bug类型的待办-4 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述5  输入：批量添加bug类型的待办-5 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述6  输入：批量添加bug类型的待办-6 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述7  输入：批量添加bug类型的待办-7 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-保存按钮 提交 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.AssertUtils: 测试通过！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: Test Success</font></span><br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- batchAddTodoSuccessB3 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.jay.testcases.TestAddTodo@419c5f1a]" name="close" is-config="true" duration-ms="3339" started-at="2017-03-27T12:38:07Z" finished-at="2017-03-27T12:38:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jay.testcases.TestAddTodo@419c5f1a]" name="setup" is-config="true" duration-ms="1173" started-at="2017-03-27T12:38:10Z" finished-at="2017-03-27T12:38:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 杀死chrome浏览器成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 创建chrome浏览器成功</font></span><br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="batchAddTodoSuccessC1()[pri:0, instance:com.jay.testcases.TestAddTodo@419c5f1a]" name="batchAddTodoSuccessC1" duration-ms="15098" started-at="2017-03-27T12:38:11Z" finished-at="2017-03-27T12:38:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/LoginPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 打开网址：http://192.168.0.124/zentao</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：用户名输入框  输入：admin 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：密码输入框  输入：123456 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：登录按钮 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceIndexPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：我的地盘-我的待办 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：待办-批量添加按钮 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/BatchAddTodoPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框0  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框1  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框2  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框3  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框4  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框5  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框6  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框7  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框0  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框1  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框2  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框3  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框4  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框5  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框6  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框7  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框0  输入：批量添加代办1-0 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框1  输入：批量添加代办1-1 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框2  输入：批量添加代办1-2 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框3  输入：批量添加代办1-3 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框4  输入：批量添加代办1-4 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框5  输入：批量添加代办1-5 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框6  输入：批量添加代办1-6 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框7  输入：批量添加代办1-7 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述0  输入：完成批量添加代办3-0 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述1  输入：完成批量添加代办3-1 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述2  输入：完成批量添加代办3-2 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述3  输入：完成批量添加代办3-3 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述4  输入：完成批量添加代办3-4 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述5  输入：完成批量添加代办3-5 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述6  输入：完成批量添加代办3-6 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述7  输入：完成批量添加代办3-7 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-保存按钮 提交 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.AssertUtils: 测试通过！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: Test Success</font></span><br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- batchAddTodoSuccessC1 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.jay.testcases.TestAddTodo@419c5f1a]" name="close" is-config="true" duration-ms="3314" started-at="2017-03-27T12:38:27Z" finished-at="2017-03-27T12:38:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jay.testcases.TestAddTodo@419c5f1a]" name="setup" is-config="true" duration-ms="1165" started-at="2017-03-27T12:38:30Z" finished-at="2017-03-27T12:38:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 杀死chrome浏览器成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 创建chrome浏览器成功</font></span><br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="batchAddTodoSuccessC2()[pri:0, instance:com.jay.testcases.TestAddTodo@419c5f1a]" name="batchAddTodoSuccessC2" duration-ms="16116" started-at="2017-03-27T12:38:31Z" finished-at="2017-03-27T12:38:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/LoginPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 打开网址：http://192.168.0.124/zentao</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：用户名输入框  输入：admin 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：密码输入框  输入：123456 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：登录按钮 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceIndexPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：我的地盘-我的待办 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：待办-批量添加按钮 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/BatchAddTodoPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框0  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框1  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框2  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框3  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框4  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框5  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框6  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框7  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框0  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框1  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框2  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框3  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框4  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框5  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框6  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框7  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框0  输入：批量添加代办2-0 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框1  输入：批量添加代办2-1 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框2  输入：批量添加代办2-2 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框3  输入：批量添加代办2-3 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框4  输入：批量添加代办2-4 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框5  输入：批量添加代办2-5 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框6  输入：批量添加代办2-6 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框7  输入：批量添加代办2-7 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述0  输入：完成批量添加代办3-0 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述1  输入：完成批量添加代办3-1 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述2  输入：完成批量添加代办3-2 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述3  输入：完成批量添加代办3-3 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述4  输入：完成批量添加代办3-4 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述5  输入：完成批量添加代办3-5 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述6  输入：完成批量添加代办3-6 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述7  输入：完成批量添加代办3-7 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-保存按钮 提交 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.AssertUtils: 测试通过！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: Test Success</font></span><br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- batchAddTodoSuccessC2 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.jay.testcases.TestAddTodo@419c5f1a]" name="close" is-config="true" duration-ms="3329" started-at="2017-03-27T12:38:47Z" finished-at="2017-03-27T12:38:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jay.testcases.TestAddTodo@419c5f1a]" name="setup" is-config="true" duration-ms="1181" started-at="2017-03-27T12:38:50Z" finished-at="2017-03-27T12:38:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 杀死chrome浏览器成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 创建chrome浏览器成功</font></span><br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="batchAddTodoSuccessC3()[pri:0, instance:com.jay.testcases.TestAddTodo@419c5f1a]" name="batchAddTodoSuccessC3" duration-ms="15576" started-at="2017-03-27T12:38:52Z" finished-at="2017-03-27T12:39:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/LoginPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 打开网址：http://192.168.0.124/zentao</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：用户名输入框  输入：admin 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：密码输入框  输入：123456 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：登录按钮 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceIndexPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：我的地盘-我的待办 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：待办-批量添加按钮 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/BatchAddTodoPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框0  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框1  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框2  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框3  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框4  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框5  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框6  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框7  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框0  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框1  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框2  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框3  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框4  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框5  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框6  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框7  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框0  输入：批量添加代办3-0 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框1  输入：批量添加代办3-1 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框2  输入：批量添加代办3-2 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框3  输入：批量添加代办3-3 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框4  输入：批量添加代办3-4 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框5  输入：批量添加代办3-5 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框6  输入：批量添加代办3-6 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框7  输入：批量添加代办3-7 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述0  输入：完成批量添加代办3-0 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述1  输入：完成批量添加代办3-1 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述2  输入：完成批量添加代办3-2 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述3  输入：完成批量添加代办3-3 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述4  输入：完成批量添加代办3-4 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述5  输入：完成批量添加代办3-5 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述6  输入：完成批量添加代办3-6 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述7  输入：完成批量添加代办3-7 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-保存按钮 提交 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.AssertUtils: 测试通过！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: Test Success</font></span><br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- batchAddTodoSuccessC3 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.jay.testcases.TestAddTodo@419c5f1a]" name="close" is-config="true" duration-ms="3096" started-at="2017-03-27T12:39:07Z" finished-at="2017-03-27T12:39:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jay.testcases.TestAddTodo@419c5f1a]" name="setup" is-config="true" duration-ms="1158" started-at="2017-03-27T12:39:10Z" finished-at="2017-03-27T12:39:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 杀死chrome浏览器成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverFactory: 创建chrome浏览器成功</font></span><br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="batchAddTodoSuccessC4()[pri:0, instance:com.jay.testcases.TestAddTodo@419c5f1a]" name="batchAddTodoSuccessC4" duration-ms="15110" started-at="2017-03-27T12:39:11Z" finished-at="2017-03-27T12:39:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/LoginPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 打开网址：http://192.168.0.124/zentao</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：用户名输入框  输入：admin 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：密码输入框  输入：123456 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：登录按钮 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceIndexPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：我的地盘-我的待办 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：待办-批量添加按钮 点击 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/BatchAddTodoPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框0  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框1  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框2  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框3  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框4  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框5  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框6  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框7  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框0  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框1  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框2  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框3  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框4  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框5  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框6  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框7  select  成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框0  输入：批量添加代办4-0 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框1  输入：批量添加代办4-1 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框2  输入：批量添加代办4-2 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框3  输入：批量添加代办4-3 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框4  输入：批量添加代办4-4 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框5  输入：批量添加代办4-5 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框6  输入：批量添加代办4-6 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框7  输入：批量添加代办4-7 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述0  输入：完成批量添加代办3-0 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述1  输入：完成批量添加代办3-1 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述2  输入：完成批量添加代办3-2 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述3  输入：完成批量添加代办3-3 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述4  输入：完成批量添加代办3-4 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述5  输入：完成批量添加代办3-5 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述6  输入：完成批量添加代办3-6 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述7  输入：完成批量添加代办3-7 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-保存按钮 提交 成功</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.AssertUtils: 测试通过！</font></span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: Test Success</font></span><br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- batchAddTodoSuccessC4 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.jay.testcases.TestAddTodo@419c5f1a]" name="close" is-config="true" duration-ms="3360" started-at="2017-03-27T12:39:27Z" finished-at="2017-03-27T12:39:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.jay.testcases.TestAddTodo -->
+    </test> <!-- TestLogin -->
+  </suite> <!-- Suite1 -->
+</testng-results>

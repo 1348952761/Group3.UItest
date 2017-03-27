@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="提BUG页面"><!-- 提BUG页面 -->
+	    <locator name="影响版本框" type="css" value="ul.chosen-choices:nth-child(1)" timeout="5">versionBox</locator>
+	    <locator name="标题输入框" type="css" value="div.colorpicker.input-group-btn +input" timeout="5">titleInputBox</locator>
+	    <locator name="优先级按钮" type="css" value="#dataform > table > tbody > tr:nth-child(5) > td > div.row-table > div.col-table.w-230px > div > div:nth-child(4) > button" timeout="5">priorityButton</locator>
+	    <locator name="保存按钮" type="css" value="button#submit" timeout="5">saveButton</locator>
+</page>

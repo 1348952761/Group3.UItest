@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="项目-首页"><!-- 项目-首页 -->
+	    <locator name="项目--bug链接" type="css" value="li[data-id='bug'] a" timeout="5">bugLink</locator>
+</page>

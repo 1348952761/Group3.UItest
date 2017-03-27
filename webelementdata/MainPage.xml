@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="MainPage"><!-- MainPage-->
+	    <locator name="用户菜单" type="css" value="div#userMenu" timeout="5">userMenu</locator>
+	    <locator name="退出按钮" type="css" value="div#userMenu +a" timeout="5">exitButton</locator>
+	    <locator name="我的地盘模块" type="css" value="li[data-id='my'] a" timeout="5">myplace</locator>
+	    <locator name="产品模块" type="css" value="li[data-id='product'] a" timeout="5">product</locator>
+	    <locator name="项目模块" type="css" value="li[data-id='project'] a" timeout="5">project</locator>
+</page>

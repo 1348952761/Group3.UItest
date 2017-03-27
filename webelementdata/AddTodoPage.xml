@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="添加待办页面"><!-- 添加待办页面 -->
+	    <locator name="类型下拉框" type="css" value="select#type" timeout="5">typeDropdown</locator>
+	    <locator name="名称输入框" type="css" value="div.required.required-wrapper +div +div input" timeout="5">nameTypeBox</locator>
+	    <locator name="描述frame" type="css" value="iframe.ke-edit-iframe" timeout="5">describeIframe</locator>
+	    <locator name="保存按钮" type="css" value="button#submit" timeout="5">saveButton</locator>
+	    <locator name="优先级下拉框" type="css" value="select#pri" timeout="5">priorityDropdown</locator>
+</page>

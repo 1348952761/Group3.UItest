@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="我的地盘-首页"><!-- 我的地盘-首页-->
+	    <locator name="我的地盘-首页" type="css" value="li[data-id='index'] a" timeout="5">indexLink</locator>
+	    <locator name="我的地盘-我的待办" type="css" value="li[data-id='todo'] a" timeout="5">todoLink</locator>
+	    <locator name="我的地盘-我的任务" type="css" value="li[data-id='task'] a" timeout="5">taskLink</locator>
+</page>

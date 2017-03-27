@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="测试项目--bug列表"><!-- 测试项目 bug列表 -->
+	    <locator name="提bug按钮" type="css" value="div.actions a +a" timeout="5">addBugButton</locator>
+</page>

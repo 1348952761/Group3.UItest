@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite1">
+              <span class="suite-name border-passed">Suite1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite1">
+                    <span>F:\workpace\Group3.UItest\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite1">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite1">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite1">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite1">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite1">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite1">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite1" class="hide-methods passed suite-Suite1"> (hide)</a> <!-- hide-methods passed suite-Suite1 -->
+                      <a href="#" panel-name="suite-Suite1" class="show-methods passed suite-Suite1"> (show)</a> <!-- show-methods passed suite-Suite1 -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite1">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.jay.testcases.TestAddTodo" hash-for-method="addTodoNameNull">addTodoNameNull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.jay.testcases.TestAddTodo" hash-for-method="addTodoSuccess">addTodoSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.jay.testcases.TestAddTodo" hash-for-method="batchAddTodoSuccessB1">batchAddTodoSuccessB1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.jay.testcases.TestAddTodo" hash-for-method="batchAddTodoSuccessB2">batchAddTodoSuccessB2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.jay.testcases.TestAddTodo" hash-for-method="batchAddTodoSuccessB3">batchAddTodoSuccessB3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.jay.testcases.TestAddTodo" hash-for-method="batchAddTodoSuccessC1">batchAddTodoSuccessC1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.jay.testcases.TestAddTodo" hash-for-method="batchAddTodoSuccessC2">batchAddTodoSuccessC2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.jay.testcases.TestAddTodo" hash-for-method="batchAddTodoSuccessC3">batchAddTodoSuccessC3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.jay.testcases.TestAddTodo" hash-for-method="batchAddTodoSuccessC4">batchAddTodoSuccessC4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite1" class="panel Suite1">
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jay.testcases.TestAddTodo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addTodoNameNull">
+                  </a> <!-- addTodoNameNull -->
+                  <span class="method-name">addTodoNameNull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addTodoSuccess">
+                  </a> <!-- addTodoSuccess -->
+                  <span class="method-name">addTodoSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="batchAddTodoSuccessB1">
+                  </a> <!-- batchAddTodoSuccessB1 -->
+                  <span class="method-name">batchAddTodoSuccessB1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="batchAddTodoSuccessB2">
+                  </a> <!-- batchAddTodoSuccessB2 -->
+                  <span class="method-name">batchAddTodoSuccessB2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="batchAddTodoSuccessB3">
+                  </a> <!-- batchAddTodoSuccessB3 -->
+                  <span class="method-name">batchAddTodoSuccessB3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="batchAddTodoSuccessC1">
+                  </a> <!-- batchAddTodoSuccessC1 -->
+                  <span class="method-name">batchAddTodoSuccessC1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="batchAddTodoSuccessC2">
+                  </a> <!-- batchAddTodoSuccessC2 -->
+                  <span class="method-name">batchAddTodoSuccessC2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="batchAddTodoSuccessC3">
+                  </a> <!-- batchAddTodoSuccessC3 -->
+                  <span class="method-name">batchAddTodoSuccessC3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="batchAddTodoSuccessC4">
+                  </a> <!-- batchAddTodoSuccessC4 -->
+                  <span class="method-name">batchAddTodoSuccessC4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+        </div> <!-- panel Suite1 -->
+        <div panel-name="test-xml-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\workpace\Group3.UItest\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite1&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.jay.uiframework.RetryListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.jay.uiframework.TestNGListener&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;TestLogin&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.jay.testcases.TestAddTodo&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestLogin --&gt;
+&lt;/suite&gt; &lt;!-- Suite1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestLogin (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite1');
+function tableData_Suite1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'batchAddTodoSuccessB2')
+data.setCell(0, 2, 'com.jay.testcases.TestAddTodo')
+data.setCell(0, 3, 16689);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'batchAddTodoSuccessB3')
+data.setCell(1, 2, 'com.jay.testcases.TestAddTodo')
+data.setCell(1, 3, 16433);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'batchAddTodoSuccessB1')
+data.setCell(2, 2, 'com.jay.testcases.TestAddTodo')
+data.setCell(2, 3, 16335);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'batchAddTodoSuccessC2')
+data.setCell(3, 2, 'com.jay.testcases.TestAddTodo')
+data.setCell(3, 3, 16116);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'batchAddTodoSuccessC3')
+data.setCell(4, 2, 'com.jay.testcases.TestAddTodo')
+data.setCell(4, 3, 15576);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'batchAddTodoSuccessC4')
+data.setCell(5, 2, 'com.jay.testcases.TestAddTodo')
+data.setCell(5, 3, 15110);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'batchAddTodoSuccessC1')
+data.setCell(6, 2, 'com.jay.testcases.TestAddTodo')
+data.setCell(6, 3, 15098);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'addTodoNameNull')
+data.setCell(7, 2, 'com.jay.testcases.TestAddTodo')
+data.setCell(7, 3, 10013);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'addTodoSuccess')
+data.setCell(8, 2, 'com.jay.testcases.TestAddTodo')
+data.setCell(8, 3, 7235);
+window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite1">
+              </div> <!-- times-div-Suite1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addTodoNameNull</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/LoginPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 打开网址：http://192.168.0.124/zentao</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：用户名输入框  输入：admin 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：密码输入框  输入：123456 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：登录按钮 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceIndexPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：我的地盘-我的待办 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：待办-新增按钮 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/AddTodoPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：类型下拉框  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：优先级下拉框  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：名称输入框  输入： 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：保存按钮 提交 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.AssertUtils: 测试通过！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: Test Success</font></span><br /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">batchAddTodoSuccessB3</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/LoginPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 打开网址：http://192.168.0.124/zentao</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：用户名输入框  输入：admin 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：密码输入框  输入：123456 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：登录按钮 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceIndexPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：我的地盘-我的待办 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：待办-批量添加按钮 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/BatchAddTodoPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框0  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框1  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框2  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框3  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框4  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框5  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框6  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框7  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框0  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框1  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框2  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框3  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框4  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框5  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框6  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框7  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉0 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉1 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉2 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉3 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉4 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉5 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉6 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉7 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述0  输入：批量添加bug类型的待办-0 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述1  输入：批量添加bug类型的待办-1 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述2  输入：批量添加bug类型的待办-2 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述3  输入：批量添加bug类型的待办-3 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述4  输入：批量添加bug类型的待办-4 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述5  输入：批量添加bug类型的待办-5 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述6  输入：批量添加bug类型的待办-6 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述7  输入：批量添加bug类型的待办-7 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-保存按钮 提交 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.AssertUtils: 测试通过！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: Test Success</font></span><br /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addTodoSuccess</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/LoginPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 打开网址：http://192.168.0.124/zentao</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：用户名输入框  输入：admin 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：密码输入框  输入：123456 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：登录按钮 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceIndexPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：我的地盘-我的待办 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：待办-新增按钮 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/AddTodoPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：类型下拉框  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：优先级下拉框  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：名称输入框  输入：2017-03-27TODO0 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：保存按钮 提交 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.AssertUtils: 测试通过！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: Test Success</font></span><br /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">batchAddTodoSuccessC2</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/LoginPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 打开网址：http://192.168.0.124/zentao</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：用户名输入框  输入：admin 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：密码输入框  输入：123456 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：登录按钮 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceIndexPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：我的地盘-我的待办 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：待办-批量添加按钮 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/BatchAddTodoPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框0  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框1  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框2  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框3  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框4  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框5  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框6  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框7  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框0  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框1  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框2  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框3  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框4  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框5  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框6  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框7  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框0  输入：批量添加代办2-0 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框1  输入：批量添加代办2-1 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框2  输入：批量添加代办2-2 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框3  输入：批量添加代办2-3 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框4  输入：批量添加代办2-4 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框5  输入：批量添加代办2-5 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框6  输入：批量添加代办2-6 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框7  输入：批量添加代办2-7 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述0  输入：完成批量添加代办3-0 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述1  输入：完成批量添加代办3-1 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述2  输入：完成批量添加代办3-2 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述3  输入：完成批量添加代办3-3 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述4  输入：完成批量添加代办3-4 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述5  输入：完成批量添加代办3-5 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述6  输入：完成批量添加代办3-6 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述7  输入：完成批量添加代办3-7 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-保存按钮 提交 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.AssertUtils: 测试通过！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: Test Success</font></span><br /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">batchAddTodoSuccessC4</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/LoginPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 打开网址：http://192.168.0.124/zentao</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：用户名输入框  输入：admin 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：密码输入框  输入：123456 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：登录按钮 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceIndexPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：我的地盘-我的待办 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：待办-批量添加按钮 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/BatchAddTodoPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框0  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框1  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框2  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框3  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框4  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框5  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框6  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框7  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框0  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框1  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框2  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框3  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框4  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框5  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框6  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框7  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框0  输入：批量添加代办4-0 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框1  输入：批量添加代办4-1 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框2  输入：批量添加代办4-2 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框3  输入：批量添加代办4-3 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框4  输入：批量添加代办4-4 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框5  输入：批量添加代办4-5 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框6  输入：批量添加代办4-6 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框7  输入：批量添加代办4-7 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述0  输入：完成批量添加代办3-0 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述1  输入：完成批量添加代办3-1 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述2  输入：完成批量添加代办3-2 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述3  输入：完成批量添加代办3-3 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述4  输入：完成批量添加代办3-4 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述5  输入：完成批量添加代办3-5 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述6  输入：完成批量添加代办3-6 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述7  输入：完成批量添加代办3-7 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-保存按钮 提交 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.AssertUtils: 测试通过！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: Test Success</font></span><br /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">batchAddTodoSuccessC1</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/LoginPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 打开网址：http://192.168.0.124/zentao</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：用户名输入框  输入：admin 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：密码输入框  输入：123456 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：登录按钮 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceIndexPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：我的地盘-我的待办 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：待办-批量添加按钮 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/BatchAddTodoPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框0  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框1  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框2  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框3  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框4  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框5  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框6  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框7  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框0  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框1  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框2  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框3  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框4  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框5  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框6  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框7  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框0  输入：批量添加代办1-0 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框1  输入：批量添加代办1-1 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框2  输入：批量添加代办1-2 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框3  输入：批量添加代办1-3 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框4  输入：批量添加代办1-4 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框5  输入：批量添加代办1-5 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框6  输入：批量添加代办1-6 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框7  输入：批量添加代办1-7 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述0  输入：完成批量添加代办3-0 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述1  输入：完成批量添加代办3-1 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述2  输入：完成批量添加代办3-2 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述3  输入：完成批量添加代办3-3 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述4  输入：完成批量添加代办3-4 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述5  输入：完成批量添加代办3-5 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述6  输入：完成批量添加代办3-6 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述7  输入：完成批量添加代办3-7 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-保存按钮 提交 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.AssertUtils: 测试通过！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: Test Success</font></span><br /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">batchAddTodoSuccessB2</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/LoginPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 打开网址：http://192.168.0.124/zentao</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：用户名输入框  输入：admin 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：密码输入框  输入：123456 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：登录按钮 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceIndexPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：我的地盘-我的待办 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：待办-批量添加按钮 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/BatchAddTodoPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框0  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框1  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框2  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框3  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框4  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框5  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框6  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框7  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框0  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框1  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框2  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框3  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框4  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框5  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框6  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框7  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉0 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉1 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉2 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉3 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉4 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉5 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉6 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉7 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述0  输入：批量添加bug类型的待办-0 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述1  输入：批量添加bug类型的待办-1 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述2  输入：批量添加bug类型的待办-2 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述3  输入：批量添加bug类型的待办-3 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述4  输入：批量添加bug类型的待办-4 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述5  输入：批量添加bug类型的待办-5 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述6  输入：批量添加bug类型的待办-6 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述7  输入：批量添加bug类型的待办-7 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-保存按钮 提交 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.AssertUtils: 测试通过！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: Test Success</font></span><br /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">batchAddTodoSuccessB1</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/LoginPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 打开网址：http://192.168.0.124/zentao</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：用户名输入框  输入：admin 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：密码输入框  输入：123456 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：登录按钮 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceIndexPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：我的地盘-我的待办 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：待办-批量添加按钮 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/BatchAddTodoPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框0  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框1  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框2  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框3  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框4  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框5  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框6  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框7  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框0  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框1  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框2  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框3  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框4  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框5  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框6  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框7  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉0 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉1 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉2 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉3 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉4 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉5 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉6 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-bug名称下拉7 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述0  输入：批量添加bug类型的待办-0 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述1  输入：批量添加bug类型的待办-1 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述2  输入：批量添加bug类型的待办-2 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述3  输入：批量添加bug类型的待办-3 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述4  输入：批量添加bug类型的待办-4 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述5  输入：批量添加bug类型的待办-5 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述6  输入：批量添加bug类型的待办-6 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述7  输入：批量添加bug类型的待办-7 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-保存按钮 提交 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.AssertUtils: 测试通过！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: Test Success</font></span><br /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">batchAddTodoSuccessC3</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/LoginPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 打开网址：http://192.168.0.124/zentao</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：用户名输入框  输入：admin 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：密码输入框  输入：123456 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：登录按钮 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceIndexPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：我的地盘-我的待办 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：待办-批量添加按钮 点击 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/BatchAddTodoPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框0  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框1  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框2  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框3  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框4  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框5  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框6  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-类型下拉框7  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框0  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框1  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框2  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框3  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框4  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框5  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框6  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-优先级下拉框7  select  成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框0  输入：批量添加代办3-0 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框1  输入：批量添加代办3-1 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框2  输入：批量添加代办3-2 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框3  输入：批量添加代办3-3 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框4  输入：批量添加代办3-4 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框5  输入：批量添加代办3-5 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框6  输入：批量添加代办3-6 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-名称输入框7  输入：批量添加代办3-7 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述0  输入：完成批量添加代办3-0 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述1  输入：完成批量添加代办3-1 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述2  输入：完成批量添加代办3-2 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述3  输入：完成批量添加代办3-3 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述4  输入：完成批量添加代办3-4 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述5  输入：完成批量添加代办3-5 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述6  输入：完成批量添加代办3-6 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-描述7  输入：完成批量添加代办3-7 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.DriverUtils: 页面元素：批量添加-保存按钮 提交 成功</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件，路径为：F:\workpace\Group3.UItest/webelementdata/MyplaceMyTodoPage.xml</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.xmlUtils: 读取xml文件成功！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.utils.AssertUtils: 测试通过！</font></span><br /></span>
+                <span class="reporter-method-output"><span style="color:black"><font size="+1"face="微软雅黑">【info】com.jay.uiframework.TestNGListener: Test Success</font></span><br /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jay.testcases.TestAddTodo</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addTodoNameNull</span>
+                <span class="method-start">1735 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">11749 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">15095 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addTodoSuccess</span>
+                <span class="method-start">16179 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">23415 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">26480 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">batchAddTodoSuccessB1</span>
+                <span class="method-start">27759 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">44096 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">46271 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">batchAddTodoSuccessB2</span>
+                <span class="method-start">47555 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">64244 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">67609 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">batchAddTodoSuccessB3</span>
+                <span class="method-start">68715 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">85149 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">88488 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">batchAddTodoSuccessC1</span>
+                <span class="method-start">89661 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">104760 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">108075 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">batchAddTodoSuccessC2</span>
+                <span class="method-start">109240 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">125357 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">128687 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">batchAddTodoSuccessC3</span>
+                <span class="method-start">129868 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">145445 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">148542 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">batchAddTodoSuccessC4</span>
+                <span class="method-start">149700 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">164811 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

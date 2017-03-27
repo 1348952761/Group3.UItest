@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="我的地盘::我的待办"><!-- 我的地盘::我的待办 -->
+	    <locator name="待办-新增按钮" type="css" value="div.actions a:nth-child(3)" timeout="5">addTodo</locator>
+	    <locator name="待办-批量添加按钮" type="css" value="div.actions a:nth-child(2)" timeout="5">batchAddTodo</locator>
+</page>
